@@ -56,7 +56,31 @@ button:active {
     width: 580px;
 }
 
-img{
+img {
  height: 500px;
  width: 550px;
 }
+
+@media screen and (max-width: 900px) {
+    .container_buttons {
+        flex-wrap: wrap;
+    }
+
+    .container_image, img {
+        max-width: 90%;
+    }
+ 
+  }
+
+
+@media screen and (max-width: 300px) {
+    .container_buttons {
+        flex-wrap: wrap;
+    }
+
+    .container_image, img {
+        height: 90%;
+        width: 90%;
+    }
+ 
+  }
