@@ -8,9 +8,9 @@
 
 main {
     align-items: center;
-    background-color: #a5004d;
+    background-color: #eff1f5;
     background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-    color: whitesmoke;
+    color: #a5004d;
     display: flex;
     flex-direction: column;
     font-family: 'Agbalumo';
@@ -20,19 +20,24 @@ main {
 
 .container_buttons {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap:20px;
     justify-content: center;
-    margin: 60px auto;
 }
 
 button {
+    background-color: #a5004d;
+    color: whitesmoke;
     cursor: pointer;
     text-transform: capitalize;
+    font-size: medium;
     border: 0 none;
     line-height: 1.3;
     flex: 0 0 160px;
     border-radius: 36px;
     padding: 1rem;
+}
 
+button:active {
+    transform: scale(0.98);
 }
