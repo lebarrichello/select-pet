@@ -5,7 +5,7 @@ Projeto desenvolvido como parte dos estudos no módulo de Front-End do curso de 
 [Gravação de tela de 08-11-2023 15:24:33.webm](https://github.com/lebarrichello/select-pet/assets/42211040/bf664a60-00c7-48c8-bef7-4b08785e731f)
 
 
-<p>Acesse o projeto em produção <a href="https://lebarrichello.github.io/superheroesrandom/" target="_blank">clicando aqui</a></p>
+<p>Acesse o projeto em produção <a href="https://select-pet-ebon.vercel.app/" target="_blank">clicando aqui</a></p>
 
 ## 🎯 Objetivo
 
